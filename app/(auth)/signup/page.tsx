@@ -3,14 +3,14 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Checkbox } from "@/components/ui/checkbox"
-import { Sofa } from "lucide-react"
+import { Scissors } from "lucide-react"
 
 export default function Component() {
   return (
     <div className="flex min-h-screen bg-gray-100 dark:bg-gray-900">
       <div className="flex flex-col justify-center w-full max-w-md p-6 m-auto bg-white dark:bg-gray-800 rounded-md shadow-md">
         <div className="flex justify-center mb-8">
-          <Sofa className="h-12 w-12 text-primary" />
+          <Scissors className="h-12 w-12 text-primary" />
         </div>
         <h1 className="text-3xl font-semibold text-center text-gray-700 dark:text-white">Create an account</h1>
         <form className="mt-6">
